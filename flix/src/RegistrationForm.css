@@ -1,0 +1,59 @@
+.registration-form {
+  max-width: 90%;
+  margin: auto;
+  padding: 20px;
+  background-color: #222;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: "Nes Controller", sans-serif;
+}
+
+.registration-form h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #4b4b4b;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.input-field::placeholder {
+  color: #c0c0c0;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(175, 22, 22);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "Stereotones", sans-serif;
+}
+
+.register-button:hover {
+  background-color: #ff0d0d;
+}
+
+.auth-switch {
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-form {
+    max-width: 600px;
+  }
+
+  .input-field {
+    width: 580px;
+  }
+}

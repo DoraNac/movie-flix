@@ -1,0 +1,56 @@
+.login-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  background-color: #222;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: "Nes Controller", sans-serif;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  margin-top: -10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"] {
+  width: 580px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #4b4b4b;
+  color: #fff;
+}
+
+.login-form input[type="text"]::placeholder,
+.login-form input[type="email"]::placeholder {
+  color: #c0c0c0;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0px;
+  border: none;
+  background-color: rgb(175, 22, 22);
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  height: 8px;
+  font-family: "Stereotones", sans-serif;
+}
+
+.login-form button:hover {
+  background-color: #ff0d0d;
+}
+
+.login-form button:focus {
+  outline: none;
+}
+
+.auth-switch {
+  font-size: 24px;
+  margin-bottom: -0px;
+}
