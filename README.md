@@ -12,3 +12,7 @@ Tech Stack
 
     Frontend: React, Vite
     API: The Movie Database (TMDb)
+
+Check on Netlify: 
+
+https://movie-meowflix-api.netlify.app
